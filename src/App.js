@@ -3,19 +3,9 @@ import "./App.css";
 import logo from "./Images/cyber-security.png";
 import main from "./Images/main.png";
 import React from "react";
-import { useSpring, animated } from "react-spring";
+ 
 function App() {
- const animationProps = useSpring({
-    opacity: 1,
-    from: { opacity: 0 },
-    config: { duration: 1500 },
-  });
- const animationImage = useSpring({
-   translateY: 0,
-   opacity: 1,
-   from: { translateY: 500,opacity:0 },
-   config: { duration: 1000 },
- });
+  
   return (
     <div>
       {/* code for header */}
@@ -54,7 +44,7 @@ function App() {
       {/* code for home */}
 
       <div className="home">
-       <animated.div style={animationProps} className="text">
+       <div  className="text">
           <h1 className="wc">Welcome to our website!</h1>
           <h1 className="wc">BePractical !</h1>
           <p>
@@ -64,9 +54,9 @@ function App() {
           <a className="start" href="/Login">
             Start Free now
           </a>
-        </animated.div>
-        <animated.img
-          style={animationImage}
+        </div>
+        <img
+          
           className="home_img"
           src={main}
           alt="logo"
