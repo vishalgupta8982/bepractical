@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/bepractical/static/css/main.25322733.css",
+    "main.js": "/bepractical/static/js/main.acb8a062.js",
+    "static/js/787.96ecaf83.chunk.js": "/bepractical/static/js/787.96ecaf83.chunk.js",
+    "static/media/main.png": "/bepractical/static/media/main.6bdb79ef65f3842a77d9.png",
+    "static/media/cyber-security.png": "/bepractical/static/media/cyber-security.d8bd479463ff1560003d.png",
+    "index.html": "/bepractical/index.html",
+    "main.25322733.css.map": "/bepractical/static/css/main.25322733.css.map",
+    "main.acb8a062.js.map": "/bepractical/static/js/main.acb8a062.js.map",
+    "787.96ecaf83.chunk.js.map": "/bepractical/static/js/787.96ecaf83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25322733.css",
+    "static/js/main.acb8a062.js"
+  ]
+}
