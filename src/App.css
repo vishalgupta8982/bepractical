@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
-}
+ /* hihello */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ header {
+   background-color: black;
+   color: white;
+   padding: 20px;
+   position: fixed;
+   width: 100%;
+ }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ .navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .navbar-brand {
+   font-size: 2em;
+   font-weight: bold;
+   color: green;
+   text-decoration: none;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .logo {
+   height: 1.7em;
+   margin-right: 0.5em;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .nav-links {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   margin: 0;
+   font-size: 1.2em;
+ }
+
+ .nav-links li {
+   margin-right: 45px;
+ }
+
+ .nav-links li a {
+   color: white;
+   text-decoration: none;
+ }
+
+ .nav-links li a:hover {
+   color: green;
+ }
+
+ .nav-links li a:active {
+   color: red;
+ }
+
+ .log {
+   border: 1px;
+   padding: 10px 15px 10px 15px;
+   background-color: rgb(0, 191, 255);
+   border-radius: 10px;
+ }
+
+ .wc {
+   color: green;
+ }
+
+ .home_img img {
+   width: auto;
+   height: 500px;
+   margin-left: 50%;
+ }
+
+ .home_img {
+   background-color: black;
+ }
+
+ .home {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   background-color: black;
+ }
+
+ .text {
+
+   font-size: 20px;
+   /* font-weight: bold;  */
+   color: #fff;
+   max-width: 50%;
+   padding: 1em;
+ }
+
+ .home_img {
+   width: 55vw;
+   height: 103vh;
+   object-fit: cover;
+ }
+
+ .start {
+   font-size: 20px;
+   border: 1px;
+   padding: 10px 15px 10px 15px;
+   background-color: rgb(0, 191, 255);
+   border-radius: 15px;
+   color: white;
+   text-decoration: none;
+ }
+
+ .start:hover {
+   color: green;
+ }
+
+ .about {
+   background-color: black;
+   height: 500px;
+   width: 100%;
+ }
