@@ -5,6 +5,17 @@ import main from "./Images/main.png";
 import React from "react";
 
 function App() {
+ const animationProps = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: { duration: 1500 },
+  });
+ const animationImage = useSpring({
+   translateY: 0,
+   opacity: 1,
+   from: { translateY: 500,opacity:0 },
+   config: { duration: 1000 },
+ });
   return (
     <div>
       {/* code for header */}
@@ -43,7 +54,7 @@ function App() {
       {/* code for home */}
 
       <div className="home">
-        <div className="text">
+       <animated.div style={animationProps} className="text">
           <h1 className="wc">Welcome to our website!</h1>
           <h1 className="wc">BePractical !</h1>
           <p>
@@ -53,9 +64,13 @@ function App() {
           <a className="start" href="/Login">
             Start Free now
           </a>
-        </div>
-
-        <img className="home_img" src={main} alt="logo" />
+        </animated.div>
+        <animated.img
+          style={animationImage}
+          className="home_img"
+          src={main}
+          alt="logo"
+        />
       </div>
 
       {/* code for about screen */}
