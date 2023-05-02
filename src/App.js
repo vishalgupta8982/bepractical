@@ -3,7 +3,7 @@ import "./App.css";
 import logo from "./Images/cyber-security.png";
 import main from "./Images/main.png";
 import React from "react";
-
+import { useSpring, animated } from "react-spring";
 function App() {
  const animationProps = useSpring({
     opacity: 1,
